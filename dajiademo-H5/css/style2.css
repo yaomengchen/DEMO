@@ -1,0 +1,96 @@
+html{background:none;color:#333; width:100%;height: 100%;}
+body{font-size:13px;font-family:verdana,Microsoft YaHei,Tahoma,Arial; background-color:;  width:100%; color:#7f7f7f; overflow-x:hidden;height: 100%}
+body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, textarea, p, th, td, dl, dt, dd{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+img{border:none;}
+address, caption, cite, code, dfn, em, th, var, b, i{font-style:normal;font-weight:normal;}
+li{list-style-image:none;list-style-position: outside;list-style-type:none;}
+caption, th{text-align:left;}
+h1, h2, h3, h4, h5, h6{font-size:100%;font-weight:normal;vertical-align:baseline;zoom:1;}
+input, textarea, select, button{font-size: 12px;font-weight:inherit; vertical-align:middle}
+input[type=radio], input[type=checkbox]{vertical-align: middle; margin-right:5px;}
+textarea{resize:none;}
+input[type=text],input[type=password],textarea, input[type=text]:focus, input[type=password]:focus, textarea:focus, button, button:focus{-webkit-appearance:textfield;outline:0}
+a{text-decoration:none; color:#ddd;}
+a:focus{outline-style:none;outline-width:0;}
+a:link, a:visited, a:active{text-decoration:none;}
+a:hover{text-decoration:none;}
+.clearfix:after {content: ".";display: block;height:0;clear: both;visibility:hidden}
+.clearfix {zoom:1}
+.aligncenter{text-align:center;}
+.size17{font-size:17px;}
+.size20{font-size:20px;}
+.size14{font-size:14px;}
+.size16{font-size:16px;}
+.white{color:#fff;}
+.margin10{margin-top:10px; margin-bottom:10px;}
+.margin20{margin-top:20px; margin-bottom:20px;}
+.tr_scale{transform:scale(1);-webkit-transform:scale(1)}
+.am_css{transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out;}
+.layout{width:100%; height:100%; position:relative; overflow-x:hidden;}
+
+/*加载页面*/
+.loading{width: 100%;height: 100%;background-color: #f3f2ee;overflow: hidden;
+background-image: url(../css/loading_bg.png);background-size: contain;position: absolute;left: 0;top: 0;background-repeat: no-repeat;background-position: 50% 30%;
+position: absolute;top: 0;left: 0}
+.loading_bg{}
+.text1,.text2{position: absolute;top: 45%;text-align: center;width: 100%}
+.text2{margin-top: 35px;}
+/*封面页*/
+.list{position: relative;width: 100%;height: 100%;overflow: hidden;}
+ul.itembox{position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+li.item{position: relative;}
+.cover{background-image: url(../css/cover_bg.png);background-size: cover;background-position: center top;background-repeat: no-repeat;}
+.cover .cover_text{background-image: url(../css/cover_text.png);background-repeat: no-repeat;background-position: center top;background-size: cover;width: 178px;height: 0px;margin: -159px 0 0 -89px;position: absolute;left: 50%;top: 50%;}
+.cover_text_am{animation:animationcover 8s linear  both;  -webkit-animation:animationcover 8s linear both;}
+@-webkit-keyframes animationcover{
+	0%{height: 0px;}
+    9% { height: 22px; }
+    20% { height: 58px; }
+    27% { height: 74px; }
+    37% { height: 104px; }
+    44% { height: 117px; }
+    54% { height: 140px;}
+    54% { height: 140px; }
+    64% { height: 140px; }
+    74% { height: 206px; }
+    79% { height: 266px; }
+    100% { height: 319px; }
+}
+
+@keyframes animationcover{
+	0%{height: 0px;}
+    9% { height: 22px; }
+    20% { height: 58px; }
+    27% { height: 74px; }
+    37% { height: 104px; }
+    44% { height: 117px; }
+    54% { height: 140px; }
+    54% { height: 140px; }
+    64% { height: 140px; }
+    74% { height: 206px; }
+    79% { height: 266px; }
+    100% { height: 319px; }
+}
+/*选择页面*/
+.choose{background-image: url(../css/choose_bg.png);background-size: cover;background-position: center top;background-repeat: no-repeat;width: 100%;height: 100%;}
+.choose .choose_text{width:261px;height: 74px;color: #333;font-size: 14px;position: absolute;left: 50%;top: 50%;margin:-156px 0 0 -128px; }
+.choose .btns{position: absolute;left: 50%;top: 50%;margin:-61px 0 0 -87px; }
+.choose a.choose_btn{background-image: url(../css/choose_boy.png);width: 72px;height: 149px;display: inline-block;background-size: contain;background-position: center top;background-repeat: no-repeat;margin-right:10px;}
+.choose a.girl{background-image: url(../css/choose_girl.png);}
+
+@media screen and (max-width:750px) {
+ .tr_scale{transform:scale(2.34);-webkit-transform:scale(2.34);}
+}
+@media screen and (max-width:640px) {
+ .tr_scale{transform:scale(2);-webkit-transform:scale(2);}
+}
+@media screen and (max-width:414px) {
+ .tr_scale{transform:scale(1.29);-webkit-transform:scale(1.29);}
+}
+@media screen and (max-width:375px) {
+.tr_scale{transform:scale(1.17);-webkit-transform:scale(1.17);}
+}
+@media screen and (max-width:320px){
+.tr_scale{transform:scale(1);-webkit-transform:scale(1);}
+}

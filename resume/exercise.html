@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src='JS/jquery-3.1.1.js'></script>
+	<title>val</title>
+</head>
+<body>
+	<form action="">
+		<select name="" id="" size="3" multiple="multiple">
+			<option>列表项 1</option>
+			<option selected="selected">列表项 2</option>
+			<option selected="selected">列表项 3</option>
+		</select>
+	</form>
+</body>
+<script>
+	$(document).ready(function(){
+		$('select').val(['列表项 1', '列表项 2']);
+		alert($('select').val());
+	})
+</script>
+</html>

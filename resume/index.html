@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="http://yslp.qq.com/js/core/jquery.js"></script>
+	<script src="JS/velocity.min.js"></script>
+	<script src="JS/velocity.ui.js"></script>
+	<script src="JS/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+	<link rel="stylesheet" href="CSS/main.css">
+	<title>独茧webpack</title>
+</head>
+<body>
+	<header class="fontwhite">
+	<div class="titleBackground "></div>
+		<div id="titleText">独 茧</div>
+	</header>
+	<div id="myNav">
+		<ul class="fontwhite">
+			<li class="ftl"><a href="#AboutMe">关于我</a> </li>
+			<li class="ftl"><a href="#Webpack">书籍</a></li>			
+			<li class="ftl"><a href="#Blog">博客</a></li>
+			<li class="ftl"><a href="#Skill">技能</a></li>
+			<li class="ftl"><a href="#Works">作业</a></li>
+		</ul>
+	</div>
+	<div id="musicBox">
+		<ul class="ftl">
+			<li class="current"></li>
+			<li></li>
+			<li></li>
+		</ul>
+		<audio id="music"  autoplay="autoplay" loop="loop">
+			<source src="video/Can't Take My Eyes Off You.mp3" >
+		</audio>
+
+	</div>
+	<div id="frame">
+		<div id="AboutMe" class="clearfix"  >
+			<div class="background"></div>
+			<div class="leftPortrait ftl">
+				<div class="borderImg"></div>
+					<div class="img "></div>
+			</div>
+			<div class="rightWord ftl">
+					<p>Hello 我是独茧</p> 	
+					<p>接触前端，是在自学PS时，听了一节关于前端的教程，相对于平时做的销售工作，工科出身的我更喜欢这种从自己手中创造出的作品的感觉。趁着还年轻，总要做些自己喜欢的事！于是便投入到了程序猿这个大行业中。有良好的编程习惯，独立制做静态页面，简单的动态网站，html/css/javascript比较熟悉，对于H5制作有一定的学习，个人求知欲强，学习能力优秀。</p> 
+				</div>
+		</div>
+		<div id="Webpack">
+			<div class="background"></div>
+			<ul class="clearfix">
+				<li class="ftl">
+					<div class="img" id="imgNote1">
+						<div class="shadow">
+						<div class="bookname">JavaScript高级程序设计</div>
+						</div>
+					</div>
+				</li>
+				<li class="ftl">
+					<div class="img" id="imgNote2">
+						<div class="shadow">
+						<div class="bookname">HTML5+CSS3从入门到精通</div>
+						</div>
+					</div>
+				</li>
+				<li class="ftl">
+					<div class="img" id="imgNote3">
+						<div class="shadow">
+						<div class="bookname">HTML5+CSS3+JavaScript</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div id="Blog">
+			<div class="background"></div>
+			<div class="blogContent clearfix">
+				<div class="leftimg ftl">
+					<div class="blogTitle">
+					<p>C</p>
+					<p>S</p>
+					<p>D</p>
+					<p>N</p>
+					<p>博</p>
+					<p>客</p> 
+					</div>
+				</div>
+				<div class="middleLine ftl"></div>
+				<div class="rightword ftl">
+					<a href="http://blog.csdn.net/ymc_webpack" target="_blank">独茧的博客</a>
+					<p>主要用于做一些读书笔记，和记录新的知识，监督和巩固自己多学到的东西。</p>
+					<p>学习的路程需要自己一步一步走下去，在这个过程中，总要有反思和自省，而这个博客便是这条路上的路标与标签，当有一天回头看看以前的自己时，也能找到那个奋斗的自己！</p>
+				</div>
+			</div>
+		</div>
+		<div id="Skill">
+			<div class="background"></div>
+			<div class="skillContent clearfix">
+				<div class="leftword ftl">
+					<div id="html" class="ftl">
+						<div class="backCircle"></div>
+						<div class="right">
+							<div id="htmlRightCircle" class="rightCircle"></div>
+						</div>
+						<div class="left">
+							<div id="htmlLeftCircle" class="leftCircle"></div>
+						</div>
+						<div class="htmlIcon"></div>
+						<div class="shadow">
+							<div class="shadowBack"></div>
+							<div class="percentText"><span>60</span>%</div>
+						</div>
+					</div>
+					<div id="css" >
+						<div class="backCircle"></div>
+						<div class="right">
+							<div id="cssRightCircle" class="rightCircle"></div>
+						</div>
+						<div class="left">
+							<div id="cssLeftCircle" class="leftCircle"></div>
+						</div>
+						<div class="cssIcon"></div>
+						<div class="shadow">
+							<div class="shadowBack"></div>
+							<div class="percentText"><span>60</span>%</div>
+						</div>
+					</div>
+					<div id="js">
+						<div class="backCircle"></div>
+						<div class="right">
+							<div id="jsRightCircle" class="rightCircle"></div>
+						</div>
+						<div class="left">
+							<div id="jsLeftCircle" class="leftCircle"></div>
+						</div>
+						<div class="jsIcon"></div>
+						<div class="shadow">
+							<div class="shadowBack"></div>
+							<div class="percentText"><span>30</span>%</div>
+						</div>
+					</div>
+				</div>
+				<div class="middleLine ftl"></div>
+				<div class="rightimg ftr">
+					<div class="rightTitle">
+						<p>技</p>
+						<p>能</p>
+					</div>
+				</div>
+			</div>
+		</div>		
+		<div id="Works">
+			<div class="background"></div>
+			<ul>
+				<li ><a href="demo1/index.html" class="demo ftl"></a></li>
+				<li ><a href="demo2/index.html" class="demo ftl"></a></li>
+				<li ><a href="demo3/index.html" class="demo ftl"></a></li>
+				<li ><a href="demo4/index.html" class="demo ftl"></a></li>
+			</ul>
+		</div>
+	</div>
+	<footer>
+		<p>© 2016 独茧</p>
+	</footer>
+
+	 <script type="text/javascript">
+       $(function () {
+       	//导航栏置顶
+        		var mt = 0;
+            var mydiv = document.getElementById("myNav");
+            var mt = mydiv.offsetTop;
+            window.onscroll = function () {
+                var t = document.documentElement.scrollTop || document.body.scrollTop;
+                if (t > mt) {
+                    mydiv.style.position = "fixed";
+                    mydiv.style.width = "100%";
+                    mydiv.style.top = "0";
+                }
+                else {
+                    mydiv.style.margin = "0";
+                    mydiv.style.position = "static";
+                }
+            }
+
+           //Skil熟悉度百分比
+           $('#html').hover(function(){
+           	var num = $(this).find('span').text()*3.6;
+           	if(num <= 180){
+           		$('#htmlRightCircle').css('transform', 'rotate(' + num + 'deg)');
+           	}else{
+           		$('#htmlRightCircle').css('transform', 'rotate(180deg)');
+           		$('#htmlLeftCircle').css('transform', 'rotate(' + (num - 180) +'deg)');
+
+           	};
+           }, function(){
+           	$('#htmlRightCircle').css('transform', 'rotate(0deg)');
+           	$('#htmlLeftCircle').css('transform', 'rotate(0deg)');
+
+           }
+           );
+
+           $('#css').hover(function(){
+           	var num = $(this).find('span').text()*3.6;
+           	if(num <= 180){
+           		$('#cssRightCircle').css('transform', 'rotate(' + num + 'deg)');
+           	}else{
+           		$('#cssRightCircle').css('transform', 'rotate(180deg)');
+           		$('#cssLeftCircle').css('transform', 'rotate(' + (num - 180) +'deg)');
+
+           	};
+           }, function(){
+           	$('#cssRightCircle').css('transform', 'rotate(0deg)');
+           	$('#cssLeftCircle').css('transform', 'rotate(0deg)');
+
+           }
+           );
+
+           $('#js').hover(function(){
+           	var num = $(this).find('span').text()*3.6;
+           	if(num <= 180){
+           		$('#jsRightCircle').css('transform', 'rotate(' + num + 'deg)');
+           	}else{
+           		$('#jsRightCircle').css('transform', 'rotate(180deg)');
+           		$('#jsLeftCircle').css('transform', 'rotate(' + (num - 180) +'deg)');
+
+           	};
+           }, function(){
+           	$('#jsRightCircle').css('transform', 'rotate(0deg)');
+           	$('#jsLeftCircle').css('transform', 'rotate(0deg)');
+
+           }
+           );
+
+           var time = null;
+          
+           	clearInterval (time);
+           	time = setInterval(function(){
+           		if($('#musicBox ul li').index($('#musicBox ul li.current')) + 1 >= $('#musicBox ul li').length){
+           			$('#musicBox ul li').eq(0).addClass('current').siblings().removeClass('current');
+           		}else{
+           			$('#musicBox ul li.current').next().addClass('current').siblings().removeClass('current');
+           		}
+           	},2000);
+
+           	function bf(){
+ 							var audio = document.getElementById('music'); 
+ 								if(audio!==null){             
+    //检测播放是否已暂停.audio.paused 在播放器播放时返回false.
+     
+  							if(audio.paused)                     {                 
+     							 audio.play();//audio.play();// 这个就是播放  
+  							}else{
+   							audio.pause();// 这个就是暂停
+  								}
+								 } 
+								}
+        });
+         
+    </script>
+</body>
+</html>

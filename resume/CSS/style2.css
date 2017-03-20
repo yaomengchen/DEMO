@@ -1,0 +1,105 @@
+/*style.css*/
+/*global*/
+html,body,ul,li,dl,dt,dd,p{margin: 0;padding: 0;font-family: Microsoft Yahei,SimHei,Arial}
+img{border:none;}
+.floatleft{float: left;}
+.floatright{float: right;}
+li{list-style: none;}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+.clearfix:before,.clearfix:after{ 
+    content:""; 
+    display:table; /*此元素会作为块级表格来显示（类似 <table>），表格前后带有换行符。
+*/
+} 
+.clearfix:after{clear:both;} 
+.clearfix{ 
+    *zoom:1;/*IE/7/6*/
+}
+.positionr{position: relative;}
+.positiona{position: absolute;}
+.hide{display: none;}
+.layout{width:960px;margin: 30px auto;}/*布局*/
+.logo{
+	float: left;
+
+}
+body{
+	background-image:url(/exercise/images/BACKGROUND.jpg);
+}
+.row{
+	width: 960px;
+	height: 220px;
+	margin-top: 30px;
+	background-color: #fff;
+}
+.nav{
+	margin-top:10px;
+	margin-bottom:50px;
+}
+.nav li{
+	width: 14%;
+	float: left;
+	font:bold 16px/30px 'Microsoft Yahei','SimHei';
+	text-align: center;
+	color: #898989;
+}
+@media (min-width: 768px) {
+	.header{width:960px; margin:0 auto;}
+	.nav{width: 100%;}
+	.navbar-default{background-color:#fff; border-color:#fff;}
+	.paddingtop{padding-left:20px;}
+
+}
+.about{
+	width: 960px;
+}
+.about .slider {
+	width:600px;
+	height:400px;
+}
+.about .slider ul li{
+display: none;
+}
+.about .slider ul li.current{
+	display:block;
+}
+.about .slider .box a{
+	width:20px;
+	height:20px;
+	display:block;
+	border:1px solid #fff;
+	border-radius: 100%;
+	background-color:#fff;
+	float: left;
+	margin:5px;
+
+}
+.about .slider .box a.current{
+	width:20px;
+	height:20px;
+	display:block;
+	border:1px solid #666;
+	border-radius: 100%;
+	background-color:#666;
+	float: left;
+	margin:5px;
+
+}
+.list{
+	margin-top: 60px;
+	overflow:hidden;
+	float: left;
+	width: 930px;
+	height: 300px;
+}
+.list ul{
+	width: 1550px;
+	left: 0px;
+
+}
+.list ul li{
+	float:left;
+	width:300px;
+	margin-right:10px;
+}

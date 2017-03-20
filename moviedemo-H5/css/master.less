@@ -1,0 +1,249 @@
+/*reset*/
+html{color:#fff; width:100%; height:100%;}
+body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, textarea, p, th, td, dl, dt, dd{margin:0;padding:0;}
+body{font-family:Microsoft YaHei,Tahoma,Arial; background-color:#000; height:100%; width:100%; color:#000; overflow-x:hidden;-webkit-box-sizing:border-box;box-sizing:border-box;padding:10px;}
+img{border:none;}
+li{list-style-image:none;list-style-position: outside;list-style-type:none;}
+h1, h2, h3, h4, h5, h6{font-size:100%;font-weight:normal;vertical-align:baseline;zoom:1;}
+a{text-decoration:none; color:#fff;}
+a:focus{outline-style:none;outline-width:0;}
+a:link, a:visited, a:active{text-decoration:none;}
+a:hover{text-decoration:none;}
+.clearfix:before,.clearfix:after{content:""; display:table;} 
+.clearfix:after{clear:both;}
+
+.aligncenter{text-align:center;}
+.size17{font-size:17px;}
+.size20{font-size:20px;}
+.size14{font-size:14px;}
+.size16{font-size:16px;}
+.white{color:#fff;}
+.margin10{margin-top:10px; margin-bottom:10px;}
+.margin20{margin-top:20px; margin-bottom:20px;}
+/*公共*/
+.tr_scale{-webkit-transform:scale(1);transform:scale(1);}
+.position50{left:50%;top: 50%;position: absolute;}
+.am_css{transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out;}
+.layout{width:100%; height:100%;position: relative;overflow:hidden;border-radius:20px}
+.list{position: relative;width:100%; height:100%;}
+ul.itembox{.bg;position: absolute;left:0;top:0;width:100%; height:100%;}
+li.item{position: relative;width:100%; height:100%;display:none;}
+.mc{background:url(../css/loading_logo.png) no-repeat center/cover; }
+.bg{width:100%;height:100%;background:radial-gradient(#fff,#ebebeb,#d5d3d3);background:-webkit-radial-gradient(#fff,#ebebeb,#d5d3d3);border-radius:20px;}
+/*loading*/
+/*.loading{display:none;}
+.loading-logo{background:url(../css/loading_logo.png) no-repeat center/cover; width:196px/2;height:83px/2;margin:-71px/2 0 0 -93px/2;}
+.loading-text{font-family:Constantia;font-size:20px;color:#3b3b3b;margin:32px/2  0 0 0;text-align:center;width:100%;left:0;}*/
+
+/*loading*/ 
+.loading{
+	
+	position: absolute;
+	left: 0;
+	top: 0;//保证loading在最顶层
+}
+.loading-logo{
+	width:196px/2;
+	height:83px/2;
+	margin:-70px/2 0 0 -196px/2/2;
+	background:url(../css/loading_logo.png) no-repeat center/cover;
+	}
+.loading-text{
+	width: 100%;
+	font:normal 20px 'Constantia';
+	color:#3b3b3b;
+	margin:32px/2 0 0 0;
+	text-align: center;
+	left:0;
+
+}
+
+
+/*cover*/
+.header{
+	padding: 20px/2;
+}
+.header .logo{
+background-image: url(../css/cover_logo.png);
+width: 253px/2;
+height: 53px/2;
+
+}
+.header .btn_music{
+	display: block;
+	position: absolute;
+	right:20px;
+	top:10px;
+	width:48px/2;
+	height:48px/2;
+	background-image: url(../css/btn_music.png);
+}
+.content_text{
+	margin:56px/2 0 0 -232px/2;
+	.position50;
+
+
+}
+.title{
+	width:464px/2;
+	height: 27px/2;
+	margin:-344px/2 0 0 -232px/2;
+	.mc;
+	background-image: url(../css/cover_title.png);
+	.position50;
+}
+.cover .slogan .wo{
+	.title;
+	background-image: url(../css/cover_wo.png);
+	width:65px/2;
+	height: 66px/2;
+	margin:-295px/2 0 0 -207px/2;
+
+}
+.cover .slogan .de{
+	.title;
+	background-image: url(../css/cover_de.png);
+	width:59px/2;
+	height: 66px/2;
+	margin:-295px/2 0 0 -90px/2;
+
+}
+.cover .slogan .nian{
+	.title;
+	background-image: url(../css/cover_nian.png);
+	width:69px/2;
+	height: 66px/2;
+	margin:-295px/2 0 0 30px/2;
+}
+.cover .slogan .du{
+	.title;
+	background-image: url(../css/cover_du.png);
+	width:64px/2;
+	height: 66px/2;
+	margin:-295px/2 0 0 148px/2;
+}
+.cover .slogan .shi{
+	.title;
+	background-image: url(../css/cover_shi.png);
+	width:97px/2;
+	height: 197px/2;
+	margin:-196px/2 0 0 -224px/2;
+}
+.cover .slogan .jia{
+	.title;
+	background-image: url(../css/cover_jia.png);
+	width:96px/2;
+	height: 197px/2;
+	margin:-196px/2 0 0 -118px/2;
+}
+.cover .slogan .dian{
+	.title;
+	background-image: url(../css/cover_dian.png);
+	width:91px/2;
+	height: 197px/2;
+	margin:-196px/2 0 0 0;
+}
+.cover .slogan .ying{
+	.title;
+	background-image: url(../css/cover_ying.png);
+	width:97px/2;
+	height: 197px/2;
+	margin:-196px/2 0 0 118px/2;
+}
+.cover .slogan .line{
+	.title;
+	background-image: url(../css/cover_line.png);
+	width:464px/2;
+	height:7px/2;
+	margin:30px/2 0 0 -224px/2;
+}
+.cover .arrow{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	z-index: 1;
+	background: url(../css/cover_arrow.png) no-repeat 0 0/contain;
+	position: absolute;
+	width: 50px/2;
+	height: 27px/2;
+	margin:0 0 90px/2 -50px/2/2;
+}
+.cover .projector{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	background: url(../css/cover_projector.png) no-repeat 0 0/cover; 
+	width:10164px/21/2;
+	height: 812px/2; 
+	margin: 0  0 0 -10164px/21/2/2;
+	animation: animation_projector steps(21) 6s infinite;}
+//@index是一个参数
+
+.animation_css(@index){background-position:-(10164px/21/2)*@index 0;}
+@projectors_keyframes:100/21;
+@keyframes animation_projector{
+	0%{background-position:0 0 }
+
+	100%{.animation_css(21);}
+}
+// choose
+.choose{display: none;}
+.choose .title{
+	.title;
+	background-image: url(../css/choose_title.png);
+	width:376px/2;
+	height: 66px/2;
+	margin:-431px/2 0 0 -186px/2;
+}
+.choose .choosed{
+		.title;
+		background-image: none;
+		width: 100%;height: 48px/2;margin: -363px/2 0 0 0;left:0;text-align:center;}
+.choose .choosed i{
+	background: url(../css/choose_iconheart.png) no-repeat center/cover;
+	width:22px/2;
+	height:19px/2;
+	display: inline-block;
+}
+.choose .more_tips{
+	.title;
+	background: url(../css/choose_btnslider.png) no-repeat center/cover;
+	width:289px/2;
+	height:21px/2;
+	margin:376px/2 0 0 -146px/2;
+}
+.choose .page {
+.title;
+	background:none;
+	width:100%;
+	height:26px/2;
+	margin:422px/2 0 0 0;
+	left: 0;
+	text-align: center;
+
+}
+
+// .choose .page {
+// 	.title;
+// 	display: inline-block;
+// 	width:100%;
+// 	height:26px/2;
+// 	
+// 	left: 0;
+// 		
+	
+// }
+.choose .page .dot{
+	background-color: #b8b8b8;
+	border-radius: 100%;
+	width: 12px/2;
+	height: 12px/2;
+	display: inline-block;
+}
+.choose .page .dot.current{
+	background-color: #393939;
+	border-radius: 100%;
+	width: 12px/2;
+	height: 12px/2;
+	display: inline-block;
+}

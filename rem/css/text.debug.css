@@ -1,0 +1,83 @@
+/*header*/
+
+header {
+  width: 100%;
+  height: 1.59375rem;
+  position: fixed;
+  font-family: '宋体';
+  line-height: 1.59375rem;
+  background-color: #fccb02;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 0.625rem;
+  font-weight: bold;
+}
+
+header a.back {
+  position: absolute;
+  left: 0.28125rem;
+  top: 0;
+  font-size: 0.5625rem;
+}
+
+header a.home {
+  position: absolute;
+  right: 0.84375rem;
+  top: 0.48438rem;
+  width: 0.48438rem;
+  height: 0.45313rem;
+  background: url(../images/home.png) no-repeat center/cover;
+  font-size: 0.5625rem;
+}
+
+/*section*/
+
+section {
+  font-family: 'Microsoft Yahei';
+  border-top: 1.59375rem solid transparent;
+  background: #eee;
+  padding-bottom: 1.25rem;
+}
+
+section ul li {
+  padding: 0.1875rem 0.29688rem;
+  margin: 0.51563rem 0.26563rem 0.4375rem 0.26563rem;
+  border: 0.01563rem #dadada solid;
+  border-radius: 0.04688rem;
+  background: #fff;
+}
+
+section ul li h2 a {
+  font-size: 0.5rem;
+  color: #333;
+  line-height: 0.84375rem;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+section ul li h2 img {
+  background: url(../images/home.png) no-repeat center/cover;
+  width: 0.51563rem;
+  height: 0.4375rem;
+  vertical-align: text-bottom;
+}
+
+section ul li .about {
+  color: #a9a9a9;
+  line-height: 0.70313rem;
+  overflow: hidden;
+}
+
+[data-dpr="1"] section ul li .about {
+  font-size: 12px;
+}
+
+[data-dpr="2"] section ul li .about {
+  font-size: 24px;
+}
+
+[data-dpr="3"] section ul li .about {
+  font-size: 36px;
+}
